@@ -9,11 +9,11 @@ $(document).ready(function() {
     $('#animal2').show();
     $('#animal1').hide()
     $('#animal3').hide()
-  } else if (animal === "animal3") {
+  } else {
     $('#animal3').show();
     $('#animal1').hide()
     $('#animal2').hide()
-  } else {}
+  }
 });
 
 });
