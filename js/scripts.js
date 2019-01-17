@@ -1,6 +1,6 @@
 $(document).ready(function() {
-
-  var animal = $("#animal").val();
+  $("#animal").change (function() {
+    var animal = $(this).val();
   if (animal === "animal1") {
     $('#animal1').show();
     $('#animal2').hide()
@@ -14,6 +14,6 @@ $(document).ready(function() {
     $('#animal1').hide()
     $('#animal2').hide()
   } else {}
-}
+});
 
 });

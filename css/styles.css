@@ -3,6 +3,18 @@
 }
 #animal1, #animal2, #animal3 {
   display: none;
+    width: 800px;
+    margin: 30px auto 30px auto;
+    /* border: 1px solid #f0f; */
+    text-align: center;
+}
+
+#animal1 p, #animal2 p, #animal3 p {
+  text-align: left;
+}
+
+#animal1 img, #animal2 img, #animal3 img {
+  margin-bottom: 16px;
 }
 
 .border{
