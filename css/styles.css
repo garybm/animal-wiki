@@ -1,3 +1,29 @@
 .smallimg {
   width: 150px;
 }
+#animal1, #animal2, #animal3 {
+  display: none;
+}
+
+.border{
+  border-style: solid;
+  border-color: red;
+  margin-left: 3px;
+  margin-right: 3px;
+}
+
+.header {
+  margin-top: 30px;
+  border-style: solid;
+  border-color: lightgray;
+  margin-left: 3px;
+  margin-right: 3px;
+  padding: 20px;
+  text-align: center;
+  background:lightgray;
+}
+
+.dropdown {
+  width: 200px;
+  margin: 30px auto 30px auto;
+}
